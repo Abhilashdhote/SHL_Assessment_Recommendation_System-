@@ -58,7 +58,7 @@ if not st.session_state.app_initialized:
     genai.configure(api_key=api_key)
 else:
     load_dotenv()
-    api_key = os.getenv("GEMINI_API_KEY")
+    api_key = st.secrets["env"]["GEMINI_API_KEY"]
     genai.configure(api_key=api_key)
 
 # Enhanced UI styles
