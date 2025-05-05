@@ -1,0 +1,9 @@
+python
+scikit-learn
+streamlit
+pandas
+requests
+google-generativeai
+python-dotenv
+fastapi
+uvicorn
